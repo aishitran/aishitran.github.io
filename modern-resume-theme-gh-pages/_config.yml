@@ -1,0 +1,116 @@
+# Site
+repository: aishitran/aishitran.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Tran Nguyen Ai Nhi
+title: Intern Tester
+email: ainhitran2003@gmail.com
+website: github.com/aishitran
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username: aishitran
+
+# Additional icon links
+additional_links:
+- title: Email Me
+  icon: fas fa-envelope
+  url: mailto:ainhitran2003@gmail.com
+
+# About Section
+about_profile_image: images/profile.jpg
+about_content: |
+  Hi, my name's Ai Nhi and I'm an Intern Tester aspiring to apply my academic knowledge
+  in a real-world testing environment. I aim to develop skills in bug detection and functional
+  testing, and gain hands-on experience with software testing tools and processes.
+
+  I am most skilled in: <mark>Manual Testing</mark>, <mark>API Testing (Postman)</mark>, and <mark>Test Case Writing</mark>
+
+content:
+  - title: Projects
+    layout: list
+    content:
+      - layout: top-middle
+        title: OrbTask To-do List
+        additional_links:
+          - title: aishitran on GitHub
+            icon: fab fa-github
+            url: https://github.com/aishitran
+        quote: >
+          A mobile To-do List application with secure authentication and real-time data synchronization.
+        description: |
+          **Role:** Back-end Developer | **Team size:** 3 | **Sept 2025**
+
+          - Developed core back-end features for task management using <mark>Dart</mark> and <mark>Firebase/REST API</mark>
+          - Supported validation of user flows such as login, task creation, update, and deletion
+          - Checked system behavior and data synchronization to ensure stable functionality
+
+      - layout: top-middle
+        title: Landing Page
+        quote: >
+          A responsive landing page focused on UX improvement and clear content presentation with effective call-to-action elements.
+        description: |
+          **Role:** Front-end Developer / UI Testing Support | **Team size:** 2 | **June 2024**
+
+          - Built responsive page layouts using <mark>HTML</mark>, <mark>CSS</mark>, JavaScript, and Bootstrap
+          - Applied UI/UX design principles to improve readability, navigation, and visual consistency
+          - Performed UI checks to verify responsiveness, interaction flow, and cross-device compatibility
+
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Expertise
+        sub_title: Testing & QA
+        caption: 2022 - Present
+        quote: >
+          Focused on manual testing, functional verification, and UI/UX quality assurance for web and mobile applications.
+        description: |
+          - Researched and practiced Manual Testing for web and mobile applications
+          - Tested functional flows such as login, authentication, CRUD operations, and data synchronization
+          - Performed UI/UX testing and checked responsiveness / display compatibility across multiple devices
+          - Wrote and executed test cases based on functional requirements
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Ho Chi Minh City University of Technology
+        caption: 2022 - 2026
+        sub_title: Information Technology
+        quote: >
+          One of the leading public universities in Vietnam, renowned for its engineering and technology programs.
+        description: |
+          Specialized in Information Technology with coursework supporting software development and quality assurance.
+
+          **CEFR English Level: B1**
+
+  - title: Skills
+    layout: text
+    content: |
+      **Testing:** Manual Testing (Basic), API Testing (Postman), Test Case Writing, Bug Reporting and Defect Documentation
+
+      **Programming Languages:** C#, Dart, HTML, CSS
+
+      **Database:** SQL Server, MySQL, MongoDB
+
+      **Tools:** Jira (Basic), GitHub, GitLab, Figma
+
+# Footer
+footer_show_references: false
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
